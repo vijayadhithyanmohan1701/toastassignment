@@ -1,29 +1,14 @@
-## Overview
+## CMS Details ##
 
-Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Required modules are installed via [http://github.com/silverstripe/recipe-cms](http://github.com/silverstripe/recipe-cms). For information on how to change the dependencies in a recipe, please have a look at [https://github.com/silverstripe/recipe-plugin](https://github.com/silverstripe/recipe-plugin). In addition, installer includes [theme/simple](https://github.com/silverstripe-themes/silverstripe-simple) as a default theme.
+The project is built using Silverstripe 4.7.3
 
-## Installation ##
+The files in the repository includes everything except modified .env file. The only files excluded are silverstripe cache and .env so the repository is good to go without the need for any composer installations.
 
-`composer create-project silverstripe/installer my-app`
+The repository has toast_db.db file for the website.
 
-See [Getting Started](https://docs.silverstripe.org/en/4/getting_started/) for more information.
+## Project Works ##
 
-## Bugtracker ##
-
-Bugs are tracked on github.com ([framework issues](https://github.com/silverstripe/silverstripe-framework/issues),
-[cms issues](https://github.com/silverstripe/silverstripe-cms/issues)).
-Please read our [issue reporting guidelines](https://docs.silverstripe.org/en/4/contributing/issues_and_bugs/).
-
-## Development and Contribution ##
-
-If you would like to make changes to the SilverStripe core codebase, we have an extensive [guide to contributing code](https://docs.silverstripe.org/en/4/contributing/code/).
-
-## Links ##
-
- * [Changelogs](https://docs.silverstripe.org/en/4/changelogs/)
- * [Bugtracker: Framework](https://github.com/silverstripe/silverstripe-framework/issues)
- * [Bugtracker: CMS](https://github.com/silverstripe/silverstripe-cms/issues)
- * [Bugtracker: Installer](https://github.com/silverstripe/silverstripe-installer/issues)
- * [Forums](http://silverstripe.org/forums)
- * [Developer Mailinglist](https://groups.google.com/forum/#!forum/silverstripe-dev)
- * [License](./LICENSE)
+1. I used an app called 'Lunacy' for windows to open the .sketch file as I am not able to open online on sketch website. I extracted the assets from this app.
+2. I used my gmail account to test email after submission as I was working on localhost. The recipient email address can be changed on admin/settings. Actions to do with header, slider and footer can be done here (shown in different tabs)
+3. Contact form submissions are under the model admin 'Contact Submissions'.
+4. I have also tested the responsiveness for screens upto 1920 x 1080 and a few resolutions above that.
