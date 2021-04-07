@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, max-content) 1fr;
+  grid-template-rows: 1fr auto auto 80px 1fr;
+  height: 100vh;
+}
+
+.app-brand {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.login-form {
+  grid-column: 2;
+  grid-row: 3;
+  display: block;
+}
+
+.silverstripe-brand {
+  grid-column: 2;
+  grid-row: 4;
+}

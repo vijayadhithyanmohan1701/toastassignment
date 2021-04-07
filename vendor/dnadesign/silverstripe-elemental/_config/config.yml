@@ -1,0 +1,27 @@
+---
+Name: elemental
+---
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'dnadesign/silverstripe-elemental:client/dist/js/bundle.js'
+  extra_requirements_css:
+    - 'dnadesign/silverstripe-elemental:client/dist/styles/bundle.css'
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalContentControllerExtension
+  url_handlers:
+    'element/$ID!': 'handleElement'
+
+SilverStripe\Versioned\VersionedGridFieldItemRequest:
+  extensions:
+    - 'DNADesign\Elemental\Extensions\GridFieldDetailFormItemRequestExtension'
+
+Symbiote\GridFieldExtensions\GridFieldAddNewMultiClassHandler:
+  extensions:
+    - DNADesign\Elemental\Extensions\GridFieldAddNewMultiClassHandlerExtension
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\CMS\Controllers\CMSSiteTreeFilter_Search:
+    class: DNADesign\Elemental\Controllers\ElementSiteTreeFilterSearch

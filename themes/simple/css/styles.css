@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Muli';
+    src:url('../webfonts/Muli.ttf.woff') format('woff'),
+        url('../webfonts/Muli.ttf.svg#Muli') format('svg'),
+        url('../webfonts/Muli.ttf.eot'),
+        url('../webfonts/Muli.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+.content-blocks .flex-col img{
+    width: 100%;
+    border: 0 !important;
+}
+.content-blocks .row{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.content-blocks .row-reverse{
+    flex-direction: row-reverse;
+}
+.inner {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+.col-sm-12 {
+    width: 100%;
+    padding: 0;
+}
+.content-blocks{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #171718;
+}
+}
+.content-blocks .row .content{
+    padding:40px;
+}
+.content-blocks .row{
+    max-width: 80%;
+    margin: 40px auto;
+    
+}
+.content-blocks .row.no-gutter{
+    max-width: 100%;
+}
+.content-blocks .container-fluid{
+    padding: 0 !important;
+}
+ul.social-links {
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+ul.social-links li{
+    margin: 0 5px;
+}
+ul.social-links li img {
+    width: 75%;
+}
+.footer-phone{
+    text-align: center;
+    color:#fff !important;
+}
+.copyright{
+    color:#fff !important;
+}
+body{
+    background: #171718 !important;
+}
+.header{
+    background: transparent !important;
+}
+.footer{
+    background: #171718 !important;
+}
+.footer p a{
+    color:#fff !important;
+}
+.header .brand img{
+    width: 60%;
+    margin-left:15px;
+}
+.header .inner {
+    padding: 20px 0 !important;
+}
+a.action-header, .action-slider{
+    margin-left: auto;
+    margin-right:15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    z-index: 1000;
+}
+
+.header .inner .unit{
+    display: flex;
+}
+body {
+    background: #171718;
+}
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6{
+    font-family: 'Muli' !important;
+}
+.typography h4{
+    color:#fff !important;
+}
+body, p, a, span, label, button{
+    font-family: 'Muli' !important;
+    color:#fff;
+}
+h4{
+    color:#fff;
+}
+.bold-caption, .bold-caption-hi{
+    padding: 5px 5px 10px 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: table;
+}
+.bold-caption{
+    color:#171718;
+    background-color: #fff;
+    padding: 5px 5px 10px 5px;
+}
+.bold-caption-hi{
+    color:#fff !important;
+    background-color: #ff6400;
+    padding: 5px 5px 10px 5px;
+}
+.main {
+    background: #171718 !important;
+}
+a.btn, button, input[type="submit"], input[type="reset"], .Actions .action {
+    background: #171718 !important;
+    border:1px solid #fff !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+}
+form {
+    max-width: auto !important;
+    width: 100% !important;
+     margin-left: auto;
+}
+.message-Success {
+    color: #ff6400;
+}
+.formfield-50 {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.formfield-50:first-child {
+    padding-right: 10px;
+}
+form input.text, form textarea, form .textajaxuniquetext, form select{
+    max-width: none !important;
+}
+input[type="text"], input[type="email"]{
+    color:#fff;
+    background-color: #3E3E3E !important;
+    border:0 !important;
+}
+.container2 img {
+    position: absolute;
+    z-index: 100;
+    width: 35%;
+    left: 42%;
+    top: 50px;
+    bottom: 0;
+}
+.container3 img{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    width: 65%;
+}
+section#banner {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    min-height: 600px;
+}
+.slider-h2, .slider-h2-hi{
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+.row.no-gutter.row-reverse .content {
+    padding: 0 50px;
+}
+.slider-h4{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.container1{
+    position: relative;
+    margin-left: 22%;
+    z-index: 500;
+    bottom: 40px;
+}
+@media screen and (max-width:962px){
+    section#banner {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        min-height: 350px;
+    }
+    .container1{
+        position: relative;
+        margin-left: 10%;
+        bottom: -30px;
+    }
+    .container2 img {
+        top:50px;
+        bottom: 0;
+    }
+}
+@media screen and (max-width:768px){
+    section#banner {
+        min-height: 250px;
+        margin-bottom: 50px;
+    }
+    section#banner .container{
+        width:76%;
+    }
+    .container1{
+        position: relative;
+        margin-left: 0;
+        bottom: -30px;
+    }
+    .tablet-nav .header .primary .nav-open-button{
+        display: none !important;
+    }
+    .tablet-nav .header .brand{
+        margin-left:0 !important;
+        margin-bottom: 0 !important;
+    }
+    .content-blocks .row-reverse {
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    .content-blocks .row {
+        flex-wrap: wrap-reverse;
+    }
+    .row.no-gutter.row-reverse .content, .flex-col.text-left.col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.content {
+        padding: 30px !important;
+    }
+    .flex-col.text-left.col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.image{
+        padding: 0 30px !important;
+    }
+    .content-blocks .row {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    div#contact .row {
+        flex-wrap: wrap;
+    }
+    div#contact .flex-col.text-left.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.content{
+        padding: 30px !important;
+        margin:0;
+    }
+    div#contact .flex-col.text-left.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.form{
+        padding: 30px !important;
+    }
+    .main .bold-caption{
+        width: 100%;
+    }
+    input#Form_ContactForm_action_doSubmitForm {
+        width: 100%;
+    }
+    .footer .inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer .inner > div{
+        flex-grow:1;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .slider-h2, .slider-h2-hi {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:1400px){
+    section#banner {
+        min-height: 900px;
+        margin-bottom: 0;
+    }
+    .container1 {
+        position: relative;
+        margin-left: 0;
+    }
+    .container2 img {
+        width:30%;
+        top:100px;
+        left: 30%;
+    }
+    .container3 img {
+        width: 77%;
+    }
+}
